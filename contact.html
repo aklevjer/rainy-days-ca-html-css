@@ -11,12 +11,13 @@
     <link rel="preload" href="images/icons/burger_icon_closed.svg" as="image" />
     <link rel="preload" href="images/icons/burger_icon_open.svg" as="image" />
     <link rel="preload" href="images/graphics/mountain_mask_small.svg" as="image" />
+    <link rel="preload" href="images/graphics/mountain_mask_large.svg" as="image" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
       <div class="header-container maxw-container">
-        <a href="index.html" class="header-logo"><img src="images/logos/rainydays_logo_small.svg" alt="Logo with white text and a mountain graphic" /></a>
+        <a href="index.html" class="header-logo"><img src="images/logos/rainydays_logo_small.svg" alt="Rainy Days logo with white text and a mountain graphic" /></a>
         <input type="checkbox" id="burger-toggle" class="hidden" />
         <label for="burger-toggle" class="burger-icon"></label>
         <nav class="header-nav">
@@ -121,7 +122,7 @@
 
     <footer>
       <div class="footer-top maxw-container">
-        <div><img src="images/logos/rainydays_logo_large.svg" alt="Logo with white text and a mountain graphic" class="footer-logo" /></div>
+        <div><img src="images/logos/rainydays_logo_large.svg" alt="Rainy Days logo with white text and a mountain graphic" class="footer-logo" /></div>
         <div>
           <input type="checkbox" id="quick-links-toggle" class="hidden" />
           <label for="quick-links-toggle" class="accordion-header">Quick links<span class="accordion-arrow">&#x276F;</span></label>
@@ -164,7 +165,8 @@
           <div class="newsletter">
             <p>Sign up to our newsletter for special offers, news and more!</p>
             <form action="#">
-              <input type="email" name="email" placeholder="email@example.com" required />
+              <label for="newsletter-email" class="hidden">Email</label>
+              <input type="email" id="newsletter-email" name="email" placeholder="email@example.com" required />
               <input type="submit" value="Signup" class="cta" />
             </form>
           </div>
