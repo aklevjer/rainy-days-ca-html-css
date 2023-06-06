@@ -349,7 +349,7 @@ footer {
   justify-content: space-between;
 }
 
-.footer-top > * {
+.footer-top > div {
   border-bottom: var(--bd-blue-grey);
 }
 
@@ -671,7 +671,7 @@ Inspiration: https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-line-clamp
   gap: 10px;
 }
 
-.carousel-pagination > * {
+.carousel-pagination > button {
   padding: 10px;
 }
 
@@ -799,7 +799,7 @@ legend {
 
 /* --------------- Radio Buttons -------------- */
 
-.payment-methods > *,
+.payment-methods > div,
 .payment-methods label {
   display: flex;
   align-items: center;
@@ -809,7 +809,6 @@ legend {
 .payment-methods input[type="radio"] {
   width: auto;
   margin: 10px 0;
-  accent-color: var(--clr-blue);
 }
 
 /* --------------- Cart Product --------------- */
@@ -1307,7 +1306,7 @@ address strong {
     border-bottom: var(--bd-blue-grey);
   }
 
-  .footer-top > * {
+  .footer-top > div {
     border-bottom: none;
   }
 

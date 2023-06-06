@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="images/icons/burger_icon_closed.svg" as="image" />
+    <link rel="preload" href="images/icons/burger_icon_open.svg" as="image" />
+    <link rel="preload" href="images/graphics/mountain_mask_small.svg" as="image" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -95,7 +98,7 @@
           <label for="newsletter-toggle" class="accordion-header">Newsletter<span class="accordion-arrow">&#x276F;</span></label>
           <div class="newsletter">
             <p>Sign up to our newsletter for special offers, news and more!</p>
-            <form method="POST">
+            <form action="#">
               <input type="email" name="email" placeholder="email@example.com" required />
               <input type="submit" value="Signup" class="cta" />
             </form>
