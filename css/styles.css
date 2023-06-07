@@ -201,21 +201,11 @@ Inspiration: https://codepen.io/alvarotrigo/pen/MWEJEWG */
   margin-bottom: 10px;
 }
 
-#burger-toggle:checked ~ .burger-icon {
-  background-image: url("../images/icons/burger_icon_open.svg");
-}
-
-.burger-icon,
-.shopping-cart {
-  border-radius: var(--bd-radius);
-}
-
 .burger-icon {
   order: 3;
   width: 38px;
   height: 38px;
   cursor: pointer;
-  background-image: url("../images/icons/burger_icon_closed.svg");
 }
 
 .shopping-cart {
@@ -225,6 +215,7 @@ Inspiration: https://codepen.io/alvarotrigo/pen/MWEJEWG */
   display: flex;
   align-items: center;
   border: var(--bd-white);
+  border-radius: var(--bd-radius);
 }
 
 /* -------------------------------------------- */
