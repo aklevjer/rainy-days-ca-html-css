@@ -44,7 +44,6 @@
 }
 
 body {
-  min-width: 320px;
   min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto;
@@ -114,10 +113,6 @@ textarea {
 .maxw-container {
   width: min(var(--maxw-page), calc(100% - var(--minm-page)));
   margin-inline: auto;
-}
-
-.icon {
-  max-width: 100%;
 }
 
 .no-wrap {
@@ -1013,6 +1008,10 @@ table td {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.contact-list .icon {
+  max-width: 100%;
 }
 
 address {
