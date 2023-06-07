@@ -774,18 +774,18 @@ fieldset {
 
 /* ---------------- Typography ---------------- */
 
-legend {
+.checkout-stages h2 {
   margin-bottom: 15px;
-  font-size: var(--fs-large);
-  font-weight: var(--fw-bold);
 }
 
 .checkout-stages h3 {
   font-size: var(--fs-normal);
 }
 
-.checkout-stages h2 {
+legend {
   margin-bottom: 15px;
+  font-size: var(--fs-large);
+  font-weight: var(--fw-bold);
 }
 
 /* --------------- Radio Buttons -------------- */
@@ -1305,14 +1305,6 @@ address strong {
     padding-block: 0;
   }
 
-  .footer-nav,
-  .footer-icons,
-  .newsletter {
-    height: auto !important;
-    overflow: visible;
-    transition: none;
-  }
-
   .accordion-header {
     display: block;
     padding-top: 0;
@@ -1321,6 +1313,14 @@ address strong {
 
   .accordion-arrow {
     display: none;
+  }
+
+  .footer-nav,
+  .footer-icons,
+  .newsletter {
+    height: auto !important;
+    overflow: visible;
+    transition: none;
   }
 
   /* ------------------- Hero ------------------- */
