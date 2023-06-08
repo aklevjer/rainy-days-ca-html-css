@@ -142,6 +142,7 @@ textarea {
 a,
 button,
 input[type="submit"] {
+  font-family: inherit;
   font-size: var(--fs-normal);
   font-weight: var(--fw-semi-bold);
   text-decoration: none;
