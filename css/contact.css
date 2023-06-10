@@ -26,6 +26,7 @@
 
 .quick-contact .cta {
   max-width: none;
+  transition-property: background-color;
 }
 
 /* ------------------- Lists ------------------ */
@@ -54,7 +55,7 @@ address strong {
 }
 
 .connect-icons .icon {
-  transition: transform 125ms linear;
+  transition: transform var(--tr-fast) var(--tr-linear);
 }
 
 .connect-icons a:hover > .icon {

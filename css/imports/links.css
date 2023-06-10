@@ -4,7 +4,8 @@
 
 a,
 button,
-input[type="submit"] {
+input[type="submit"],
+.accordion-header {
   font-family: inherit;
   font-size: var(--fs-normal);
   font-weight: var(--fw-semi-bold);
@@ -12,7 +13,7 @@ input[type="submit"] {
   cursor: pointer;
   color: var(--clr-white);
   border: none;
-  transition: text-shadow 125ms linear;
+  transition: text-shadow var(--tr-fast) var(--tr-linear);
 }
 
 a:not(.cta):hover,

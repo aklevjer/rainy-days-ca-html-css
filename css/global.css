@@ -148,7 +148,7 @@ Inspiration: https://codepen.io/alvarotrigo/pen/MWEJEWG */
   line-height: 40px;
   text-align: center;
   overflow: hidden;
-  transition: height 250ms ease;
+  transition: height var(--tr-medium) var(--tr-ease);
 }
 
 .header-nav a {
@@ -261,15 +261,13 @@ footer {
   font-size: var(--fs-medium);
   font-weight: var(--fw-bold);
   text-transform: capitalize;
-  cursor: pointer;
-  transition: text-shadow 125ms linear;
 }
 
 .accordion-arrow {
   padding-inline: 5px;
   font-size: var(--fs-xxlarge);
   transform: rotate(90deg);
-  transition: transform 300ms ease;
+  transition: transform var(--tr-slow) var(--tr-ease);
 }
 
 .footer-nav,
@@ -277,7 +275,7 @@ footer {
 .newsletter {
   height: 0;
   overflow: hidden;
-  transition: height 300ms ease;
+  transition: height var(--tr-slow) var(--tr-ease);
 }
 
 /*  Toggle states - initial height + 20px  */
@@ -339,7 +337,7 @@ Inspiration: https://stackoverflow.com/a/41221543 */
 .footer-icons .icon {
   box-shadow: inset 0 0 0 1px var(--clr-white);
   border-radius: 50%;
-  transition: box-shadow 125ms linear;
+  transition: box-shadow var(--tr-fast) var(--tr-linear);
 }
 
 .footer-icons a:hover > .icon {
@@ -369,6 +367,7 @@ Inspiration: https://stackoverflow.com/a/41221543 */
   border: var(--bd-white);
   border-radius: 0 5px 5px 0;
   background-color: var(--clr-dark-blue);
+  transition-property: background-color;
 }
 
 .newsletter input[type="submit"]:hover {
