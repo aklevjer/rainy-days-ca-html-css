@@ -389,6 +389,7 @@ Inspiration: https://stackoverflow.com/a/41221543 */
   color: var(--clr-black);
   border: var(--bd-blue);
   border-radius: var(--bd-radius);
+  transition-property: box-shadow;
 }
 
 .product-container:hover {
