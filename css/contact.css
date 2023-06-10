@@ -55,7 +55,7 @@ address strong {
 }
 
 .connect-icons .icon {
-  transition: transform var(--tr-fast) var(--tr-linear);
+  transition: transform var(--tr-link);
 }
 
 .connect-icons a:hover > .icon {

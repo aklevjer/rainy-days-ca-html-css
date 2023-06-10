@@ -148,7 +148,7 @@ Inspiration: https://codepen.io/alvarotrigo/pen/MWEJEWG */
   line-height: 40px;
   text-align: center;
   overflow: hidden;
-  transition: height var(--tr-medium) var(--tr-ease);
+  transition: height var(--tr-dropdown);
 }
 
 .header-nav a {
@@ -267,7 +267,7 @@ footer {
   padding-inline: 5px;
   font-size: var(--fs-xxlarge);
   transform: rotate(90deg);
-  transition: transform var(--tr-slow) var(--tr-ease);
+  transition: transform var(--tr-accordion);
 }
 
 .footer-nav,
@@ -275,7 +275,7 @@ footer {
 .newsletter {
   height: 0;
   overflow: hidden;
-  transition: height var(--tr-slow) var(--tr-ease);
+  transition: height var(--tr-accordion);
 }
 
 /*  Toggle states - initial height + 20px  */
@@ -337,7 +337,7 @@ Inspiration: https://stackoverflow.com/a/41221543 */
 .footer-icons .icon {
   box-shadow: inset 0 0 0 1px var(--clr-white);
   border-radius: 50%;
-  transition: box-shadow var(--tr-fast) var(--tr-linear);
+  transition: box-shadow var(--tr-link);
 }
 
 .footer-icons a:hover > .icon {

@@ -21,11 +21,9 @@
   --bd-blue-grey: var(--bd) var(--clr-blue-grey);
   --bd-white: var(--bd) var(--clr-white);
 
-  --tr-slow: 300ms;
-  --tr-medium: 250ms;
-  --tr-fast: 125ms;
-  --tr-ease: ease;
-  --tr-linear: linear;
+  --tr-link: 125ms linear;
+  --tr-dropdown: 250ms ease;
+  --tr-accordion: 300ms ease;
 
   --fs-normal: 1rem;
   --fs-medium: 1.1rem;
