@@ -367,7 +367,6 @@ Inspiration: https://stackoverflow.com/a/41221543 */
   border: var(--bd-white);
   border-radius: 0 5px 5px 0;
   background-color: var(--clr-dark-blue);
-  transition-property: background-color;
 }
 
 .newsletter input[type="submit"]:hover {

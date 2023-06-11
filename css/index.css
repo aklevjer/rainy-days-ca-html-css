@@ -4,14 +4,17 @@
 
 /* ------------------- Hero ------------------- */
 
+.hero,
+.hero-left {
+  display: flex;
+}
+
 .hero {
   min-height: 500px;
-  display: flex;
   flex-direction: column-reverse;
 }
 
 .hero-left {
-  display: flex;
   justify-content: center;
   color: var(--clr-white);
   background: var(--clr-light-blue) url("../images/graphics/mountain_background_medium.svg") no-repeat left bottom;

@@ -36,11 +36,11 @@ a.dark-link:hover {
   text-align: center;
   text-transform: uppercase;
   border-radius: var(--bd-radius);
-  transition-property: color, border-color, background-color;
   background-color: var(--clr-blue);
 }
 
 .cta:hover {
+  transition-property: color, border-color, background-color;
   background-color: var(--clr-dark-blue);
 }
 
