@@ -109,7 +109,6 @@ textarea {
 
 header {
   position: fixed;
-  top: 0;
   width: 100%;
   min-height: var(--hgt-header);
   z-index: 1;
