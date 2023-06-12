@@ -17,8 +17,8 @@
   border-radius: var(--bd-radius);
 }
 
-.shipping-info-wrapper > *,
-.payment-method-wrapper > * {
+.shipping-info-wrapper > form,
+.payment-method-wrapper > form {
   padding: 10px clamp(15px, 5vw, 60px) 25px;
 }
 
@@ -32,7 +32,7 @@ fieldset {
   gap: 25px;
 }
 
-.input-row-wrapper > * {
+.input-row-wrapper > div {
   flex: 1;
 }
 
