@@ -216,10 +216,6 @@ main > :not(:last-child) {
   color: var(--clr-blue);
 }
 
-.breadcrumbs li:last-child {
-  margin-top: 1px;
-}
-
 /* -------------------------------------------- */
 /*                    Footer                    */
 /* -------------------------------------------- */
@@ -296,7 +292,7 @@ footer {
 #socials-toggle:checked ~ .footer-icons,
 #newsletter-toggle:checked ~ .newsletter {
   overflow: visible;
-  animation: 500ms delay-overflow;
+  animation: delay-overflow 500ms;
 }
 
 #quick-links-toggle:checked ~ .accordion-header .accordion-arrow,
