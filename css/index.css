@@ -42,12 +42,13 @@
 
 .mountain-mask {
   position: absolute;
-  bottom: -2px;
+  top: 30px;
   left: 50%;
-  width: 100%;
-  height: 100%;
-  transform: translateX(-50%);
-  background: url("../images/graphics/mountain_mask_small.svg") no-repeat bottom;
+  width: 250px;
+  height: 191px;
+  transform: translateX(-50%) rotate(-90deg);
+  background: url("../images/graphics/mountain_mask.svg") no-repeat;
+  background-size: contain;
 }
 
 /* ------------- Collection Cards ------------- */

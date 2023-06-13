@@ -338,9 +338,9 @@
 
   .mountain-mask {
     top: 50%;
-    bottom: 0;
     left: -1px;
+    height: 480px;
+    width: 100%;
     transform: translateY(-50%);
-    background: url("../images/graphics/mountain_mask_large.svg") no-repeat left;
   }
 }
