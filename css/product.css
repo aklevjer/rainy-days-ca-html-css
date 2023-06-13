@@ -29,9 +29,9 @@
 
 .price-stock {
   margin-block: 15px;
+  gap: 15px;
   display: flex;
   align-items: center;
-  gap: 15px;
   font-size: var(--fs-xxlarge);
   font-weight: var(--fw-semi-bold);
 }

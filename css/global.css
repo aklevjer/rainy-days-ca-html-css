@@ -78,6 +78,9 @@ textarea {
 /*                Global Classes                */
 /* -------------------------------------------- */
 
+/* Max width container
+ Inspiration: https://www.youtube.com/watch?v=wBKT2KN_Y9s&t=155s */
+
 .maxw-container {
   width: min(var(--maxw-page), calc(100% - var(--minm-page)));
   margin-inline: auto;
