@@ -44,7 +44,7 @@
   position: absolute;
   bottom: -2px;
   left: 50%;
-  width: 191px;
+  width: 100%;
   height: 100%;
   transform: translateX(-50%);
   background: url("../images/graphics/mountain_mask_small.svg") no-repeat bottom;
